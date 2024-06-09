@@ -27,7 +27,6 @@ dropdownEl.insertAdjacentHTML('afterend', '<a href="#">link</a>');
 замените id на "superDropdown".*/
 
 const dropdownMenuButtonEl = document.getElementById('dropdownMenuButton');
-// console.log(dropdownMenuButtonEl);
 dropdownMenuButtonEl.id = 'superDropdown';
 
 /*6. Добавьте атрибут data - dd со значением 3 элементу у которого существует атрибут "aria-labelledby"
@@ -39,11 +38,7 @@ attributeEl.dataset.dd = '3';
 
 /*7. Удалите атрибут type у элемента с классом "dropdown-toggle".*/
 
-// const dropdownToggleEl = document.querySelectorAll('.dropdown-toggle ');
-// console.log(dropdownToggleEl);
-// dropdownToggleEl.removeAttribute('type');
-//почему-то верхний метод выдает ошибку в консоли 
-//TypeError: dropdownToggleEl.removeAttribute is not a function
-document.querySelector('.dropdown-toggle').removeAttribute('type');
+const dropdownToggleEl = document.querySelector('.dropdown-toggle ');
+dropdownToggleEl.removeAttribute('type');
 
 //переменные можно было не создавать, но строчка длиннее была бы (особенно 6 задание)
