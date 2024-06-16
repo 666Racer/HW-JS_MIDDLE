@@ -1,0 +1,11 @@
+.desc {
+    font-size: 40px;
+}
+
+.item__message {
+    line-height: 26px;
+}
+
+.item__name {
+    color: darkcyan
+}
