@@ -19,21 +19,22 @@ content.insertAdjacentHTML('afterbegin', `
 
 const parsedData = JSON.parse(data);
 console.log(parsedData);
-
-content.insertAdjacentHTML('beforeend', `
+parsedData.forEach(item => {
+    content.insertAdjacentHTML('beforeend', `
 <div class="item">
 <p class="item__message">Получение данных из data.js, куда скопирован JSON:</p>
 <a href="https://rickandmortyapi.com/api/character/108"></a>
-<img class="item__img" src=${parsedData.image}>
-<h2 class="item__name">${parsedData.name}</h2>
-<p class="item__status">Status: ${parsedData.status}</p>
-<p class="item__species">Species: ${parsedData.species} </p>
-<p class="item__type">Type: ${parsedData.type}</p>
-<p class="item__gender">Gender: ${parsedData.gender}</p>
+<img class="item__img" src=${item.image}>
+<h2 class="item__name">${item.name}</h2>
+<p class="item__status">Status: ${item.status}</p>
+<p class="item__species">Species: ${item.species} </p>
+<p class="item__type">Type: ${item.type}</p>
+<p class="item__gender">Gender: ${item.gender}</p>
 <br>
 <br>
 <br>
 </div>`)
+});
 
 
 const url = "https://rickandmortyapi.com/api/character/106"; //здесь можно менять число
