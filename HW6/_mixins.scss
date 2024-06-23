@@ -1,0 +1,28 @@
+@mixin idleForCategories() {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin hoverForCategories() {
+    -webkit-transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px 5px #7e7e7e;
+    transform: scale(1.05, 1.05);
+}
+
+@mixin hoverForSecondGrid {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+    .add__box {
+        display: flex;
+    }
+    .card__img {
+        filter: brightness(0.3);
+    }
+}
+
+@mixin fieldText() {
+    font-family: 'latolight';
+    font-size: 13px;
+    line-height: 1.2;
+    color: #b1b1b1;
+    // padding-left: 18px;
+}
