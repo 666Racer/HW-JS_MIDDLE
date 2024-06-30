@@ -1,0 +1,57 @@
+[{
+        "id ": 1,
+        "img": "img/second_grid_1.png",
+        "alt": "second_grid_1.png",
+        "title": "White t-shirt",
+        "price": "$22.00"
+    },
+    {
+        "id ": 2,
+        "img": "img/second_grid_2.png",
+        "alt": "second_grid_2.png",
+        "title": "Red blouse",
+        "price": "$23.00"
+    },
+    {
+        "id ": 3,
+        "img": "img/second_grid_3.png",
+        "alt": "second_grid_3.png",
+        "title": "Blue jacket",
+        "price": "$72.00"
+    },
+    {
+        "id ": 4,
+        "img": "img/second_grid_4.png",
+        "alt": "second_grid_4.png",
+        "title": "White dress with flowers",
+        "price": "$30.00"
+    },
+    {
+        "id ": 5,
+        "img": "img/second_grid_5.png",
+        "alt": "second_grid_5.png",
+        "title": "Striped dress",
+        "price": "$35.00"
+    },
+    {
+        "id ": 6,
+        "img": "img/second_grid_6.png",
+        "alt": "second_grid_6.png",
+        "title": "Blue-gray jacket",
+        "price": "$60.00"
+    },
+    {
+        "id ": 7,
+        "img": "img/second_grid_7.png",
+        "alt": "second_grid_7.png",
+        "title": "Sand-colored trousers",
+        "price": "$27.00"
+    },
+    {
+        "id ": 8,
+        "img": "img/second_grid_8.png",
+        "alt": "second_grid_8.png",
+        "title": "Darkblue hoodie",
+        "price": "$42.00"
+    }
+]
