@@ -13,7 +13,8 @@ async function fetchData(url) {
 document.addEventListener("DOMContentLoaded", async() => {
     const data = await fetchData(url1);
 
-    const secondGridEl = document.querySelector('.second__grid__content')
+    const secondGridEl = document.querySelector('.second__grid__content');
+    console.log(secondGridEl);
 
     data.forEach(el => {
 
